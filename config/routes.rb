@@ -1,4 +1,5 @@
 Bookmarks::Application.routes.draw do
+  # kiran modified the below two lines.. 
   #hey lavanya initiate the project...
   #ghouse will continue with the database..
   # The priority is based upon order of creation:
