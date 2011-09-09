@@ -1,10 +1,11 @@
 Bookmarks::Application.routes.draw do
-<<<<<<< HEAD
+resources :user
+
   get "home/index"
 
-=======
+
   # kiran modified the below two lines.. 
->>>>>>> 4f6185e6d0799348ae09ea8531c5183cdba61780
+
   #hey lavanya initiate the project...
   #ghouse will continue with the database..
   # The priority is based upon order of creation:
