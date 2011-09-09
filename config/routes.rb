@@ -1,5 +1,6 @@
 Bookmarks::Application.routes.draw do
   #hey lavanya initiate the project...
+  #ghouse will continue with the database..
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

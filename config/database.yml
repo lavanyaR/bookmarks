@@ -12,7 +12,6 @@ development:
   database: bookmark_development
   pool: 5
   username: root
-  password: root
+  password:
   socket: /var/run/mysqld/mysqld.sock
-
 
