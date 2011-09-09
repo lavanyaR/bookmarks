@@ -1,4 +1,6 @@
 Bookmarks::Application.routes.draw do
+  get "registrations/index"
+
   # kiran modified the below two lines.. 
   #hey lavanya initiate the project...
   #ghouse will continue with the database..
