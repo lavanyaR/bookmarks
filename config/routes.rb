@@ -1,10 +1,9 @@
 Bookmarks::Application.routes.draw do
-<<<<<<< HEAD
+resources :administrators
+
   get "home/index"
 
-=======
-  # kiran modified the below two lines.. 
->>>>>>> 4f6185e6d0799348ae09ea8531c5183cdba61780
+  # kiran modified the below two lines..
   #hey lavanya initiate the project...
   #ghouse will continue with the database..
   # The priority is based upon order of creation:
@@ -56,7 +55,7 @@ Bookmarks::Application.routes.draw do
 
   # You can have the root of your site routed with "root"
   # just remember to delete public/index.html.
-  root :to => "home#index"
+  #root :to => "home#index"
 
   # See how all your routes lay out with "rake routes"
 
