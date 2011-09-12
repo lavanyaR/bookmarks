@@ -1,0 +1,12 @@
+<%= form_for (@registration) do |f| %>
+  <%= f.label :name %>
+  <%= f.text_field :name %> </br>
+  <%= f.label :emailaddress %>
+  <%= f.text_field :emailaddress %> </br>
+  <%= f.label :password %>
+  <%= f.password_field :password %> </br>
+  confirmpassword
+  <%= password_field_tag :confirmpassword %>  
+  <%= f.submit "submit"%> </br>
+<% end %>
+

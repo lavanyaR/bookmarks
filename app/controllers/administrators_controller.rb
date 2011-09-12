@@ -3,6 +3,7 @@ class AdministratorsController < ApplicationController
   end
 
   def new
+    @administrator = Administrator.new
   end
 
   def create
@@ -18,3 +19,4 @@ class AdministratorsController < ApplicationController
   end
 
 end
+
