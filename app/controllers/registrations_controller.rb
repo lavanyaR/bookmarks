@@ -6,6 +6,7 @@ class RegistrationsController < ApplicationController
   end
 
   def new
+@registration=Registration.new
 
    
 
@@ -23,7 +24,7 @@ class RegistrationsController < ApplicationController
        end
     end
    else
-       redirect_to new_registration_path
+         redirect_to registrations_path 
   end
    end
 
