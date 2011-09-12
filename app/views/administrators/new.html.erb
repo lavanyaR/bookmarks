@@ -1,2 +1,16 @@
 <h1>Administrators#new</h1>
 <p>Find me in app/views/administrators/new.html.erb</p>
+
+<%= render 'flash' %>
+<div align="center">
+
+<%= form_for(@administrator) do |f|%>
+  <%= f.label :Username %>
+  <%= f.text_field :username %><br/>
+<%= f.label :Password  %>
+  <%= f.password_field :password %><br />
+  <%= f.submit "Login" %><br /></br />
+<% end %>
+
+</div>
+
