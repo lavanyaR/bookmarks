@@ -6,9 +6,12 @@ class RegistrationsController < ApplicationController
   end
 
   def new
+<<<<<<< HEAD
 
    @registration=Registration.new
 
+=======
+>>>>>>> 5a795c21f7d78d8f21c6bd2902535dd2cd76bfec
   end
 
   def create

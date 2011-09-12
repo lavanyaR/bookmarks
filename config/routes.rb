@@ -1,4 +1,11 @@
 Bookmarks::Application.routes.draw do
+<<<<<<< HEAD
+=======
+
+  resources :registrations
+
+  get "user/index"
+>>>>>>> 5a795c21f7d78d8f21c6bd2902535dd2cd76bfec
 
   resources :login
 
@@ -6,12 +13,43 @@ Bookmarks::Application.routes.draw do
 
   resources :users
 
+<<<<<<< HEAD
    get "home/index"
+=======
+ 
+
+
+
+  
+
+
+<<<<<<< HEAD
+ resources :registrations do
+ get "thanq", :on => :collection
+  end
+=======
+  # kiran modified the below two lines..
+
+
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+ get "home/index"
+>>>>>>> 5a795c21f7d78d8f21c6bd2902535dd2cd76bfec
  
  resources :registrations do
  get "thanq", :on => :collection
   end
+<<<<<<< HEAD
 
+=======
+>>>>>>> 33974ae8361aa7be140ed58d918681e684cebaa1
+>>>>>>> 43d6c49c433df6d816da9ee7945f8894f27353d0
+>>>>>>> 78e96ad409b22ad63c71ab33320580c4a5c00ca8
+>>>>>>> 3271831d142430af27be10ac9d061af528258ffa
+>>>>>>> 5a795c21f7d78d8f21c6bd2902535dd2cd76bfec
   #hey lavanya initiate the project...
   #ghouse will continue with the database..
   # The priority is based upon order of creation:
