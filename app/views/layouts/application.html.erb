@@ -6,8 +6,10 @@
   <%= javascript_include_tag :defaults %>
   <%= csrf_meta_tag %>
 </head>
-<body>
-
+<body  bgcolor="#F7F7F0">
+<% flash.each do |key, msg| %>
+    <%=content_tag :div, msg, :id =>"flash_#{key}" %>
+<% end %>
 <%= yield %>
 
 </body>
