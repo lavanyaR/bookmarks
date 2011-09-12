@@ -1,5 +1,4 @@
 Bookmarks::Application.routes.draw do
-<<<<<<< HEAD
 
   resources :administrators
 
@@ -8,15 +7,9 @@ resources :users
   get "home/index"
 
 
-  # kiran modified the below two lines.. 
-
-=======
- get "home/index"
- 
  resources :registrations do
  get "thanq", :on => :collection
   end
->>>>>>> 33974ae8361aa7be140ed58d918681e684cebaa1
   #hey lavanya initiate the project...
   #ghouse will continue with the database..
   # The priority is based upon order of creation:

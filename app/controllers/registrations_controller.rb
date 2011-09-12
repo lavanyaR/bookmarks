@@ -6,9 +6,6 @@ class RegistrationsController < ApplicationController
   end
 
   def new
-
-   
-
   end
 
   def create
