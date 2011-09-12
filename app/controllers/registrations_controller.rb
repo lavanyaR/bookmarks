@@ -7,13 +7,13 @@ class RegistrationsController < ApplicationController
 
   def new
 
-   
+   @registration=Registration.new
 
   end
 
   def create
    if (params[:registration][:password] == params[:confirmpassword])
-        @registration=Registration.new(:name => params[:registration][:name],:emailaddress => params[:registration][:emailaddress],:password => params[:registration][:password])
+        @registration=Registration.new(:name => params[:registration][:name],:emailaddress => params[:registration]     [:emailaddress],:password => params[:registration][:password])
         respond_to do |format|
          if @registration.save
             format.html { redirect_to thanq_registrations_path }
@@ -23,7 +23,7 @@ class RegistrationsController < ApplicationController
        end
     end
    else
-       redirect_to new_registration_path
+       redirect_to registrations_path
   end
    end
 

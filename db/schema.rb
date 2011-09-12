@@ -10,15 +10,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-<<<<<<< HEAD
 ActiveRecord::Schema.define(:version => 20110909102623) do
-=======
-<<<<<<< HEAD
-ActiveRecord::Schema.define(:version => 20110909111532) do
-=======
-ActiveRecord::Schema.define(:version => 20110909100606) do
->>>>>>> 33974ae8361aa7be140ed58d918681e684cebaa1
->>>>>>> 78e96ad409b22ad63c71ab33320580c4a5c00ca8
 
   create_table "administrators", :force => true do |t|
     t.string   "username"
@@ -27,24 +19,10 @@ ActiveRecord::Schema.define(:version => 20110909100606) do
     t.datetime "updated_at"
   end
 
-<<<<<<< HEAD
-  create_table "registrations", :force => true do |t|
-    t.string   "name"
-    t.string   "email"
-    t.string   "password"
-=======
-<<<<<<< HEAD
-  create_table "users", :force => true do |t|
-    t.string   "name"
-    t.text     "title"
-    t.text     "description"
-=======
   create_table "registrations", :force => true do |t|
     t.string   "name"
     t.string   "emailaddress"
     t.string   "password"
->>>>>>> 33974ae8361aa7be140ed58d918681e684cebaa1
->>>>>>> 78e96ad409b22ad63c71ab33320580c4a5c00ca8
     t.datetime "created_at"
     t.datetime "updated_at"
   end
